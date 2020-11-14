@@ -261,6 +261,7 @@ GameObject:
   - component: {fileID: 298170998}
   - component: {fileID: 298170997}
   - component: {fileID: 298170996}
+  - component: {fileID: 298170999}
   m_Layer: 0
   m_Name: LowerBorder
   m_TagString: Untagged
@@ -358,6 +359,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &298170999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298170995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8821f12a3edcbd94cb4e2e10b3c5aa03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyingTag: Enemy
 --- !u!1001 &399964564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -752,9 +766,10 @@ GameObject:
   - component: {fileID: 1633234977}
   - component: {fileID: 1633234976}
   - component: {fileID: 1633234975}
+  - component: {fileID: 1633234978}
   m_Layer: 0
   m_Name: UpperBorder
-  m_TagString: Untagged
+  m_TagString: UpperBorder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -849,6 +864,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &1633234978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633234974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8821f12a3edcbd94cb4e2e10b3c5aa03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyingTag: Laser
 --- !u!1 &1811610584
 GameObject:
   m_ObjectHideFlags: 0
