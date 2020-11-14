@@ -751,6 +751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  rb2D: {fileID: 1363711266115909}
 --- !u!1 &2070287829
 GameObject:
   m_ObjectHideFlags: 0
