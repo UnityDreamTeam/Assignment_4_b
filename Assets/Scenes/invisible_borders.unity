@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8821f12a3edcbd94cb4e2e10b3c5aa03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyingTag: Enemy
+  destroyTag: Enemy
 --- !u!1001 &399964564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -876,7 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8821f12a3edcbd94cb4e2e10b3c5aa03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyingTag: Laser
+  destroyTag: Laser
 --- !u!1 &1811610584
 GameObject:
   m_ObjectHideFlags: 0
