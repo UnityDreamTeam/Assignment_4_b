@@ -12,7 +12,18 @@ public class OnCollideDestroy : MonoBehaviour
         if (other.tag == destroyTag && enabled)
         {
             //Destory the collide object
-            Destroy(other.gameObject);
+            ParticleSystem p = other.GetComponent<ParticleSystem>();
+            if(p)
+            {
+                p.Play();
+            }
+            else
+            {
+                Debug.Log("Not found particel");
+            }
+            other.GetComponent<Renderer>().enabled = false;//Hide the object
+            Destroy(other.gameObject, 1f);
         }
+        Debug.Log(other.tag);
     }
 }
