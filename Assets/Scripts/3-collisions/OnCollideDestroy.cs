@@ -11,19 +11,14 @@ public class OnCollideDestroy : MonoBehaviour
     {
         if (other.tag == destroyTag && enabled)
         {
+            ParticleSystem ps = other.GetComponent<ParticleSystem>();
+            if(ps)
+            {
+                ps.Play();
+            }
             //Destory the collide object
-            ParticleSystem p = other.GetComponent<ParticleSystem>();
-            if(p)
-            {
-                p.Play();
-            }
-            else
-            {
-                Debug.Log("Not found particel");
-            }
             other.GetComponent<Renderer>().enabled = false;//Hide the object
-            Destroy(other.gameObject, 1f);
+            Destroy(other.gameObject, 1f);//Destroy with delay
         }
-        Debug.Log(other.tag);
     }
 }
