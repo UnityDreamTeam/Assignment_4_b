@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7837289214103786378}
   - component: {fileID: 3928880668046269437}
   - component: {fileID: 4202652755164059409}
+  - component: {fileID: 5211226244678313493}
   m_Layer: 0
   m_Name: EnemySaucerWithCollider
   m_TagString: Enemy
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7837289214103786379}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5925503, y: 3.5312502, z: 0}
+  m_LocalPosition: {x: -2.59255, y: 3.5312502, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -193,3 +194,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5211226244678313493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7837289214103786379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8821f12a3edcbd94cb4e2e10b3c5aa03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTag: LowerBorder
