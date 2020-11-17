@@ -18,5 +18,7 @@ Circular world:
 ![cw_1](https://user-images.githubusercontent.com/73671381/99460714-06451f00-2939-11eb-9f1b-169df994aae7.jpg)
 ![cw_2](https://user-images.githubusercontent.com/73671381/99460716-07764c00-2939-11eb-9178-2833dcbe0ccd.jpg)
 
+This is a demonstration of how we managed and split the tasks in the project (Kanban board):
+![jira2](https://user-images.githubusercontent.com/73671381/99461591-bf582900-293a-11eb-8ceb-b902b939ef29.jpg)
 This is the Invisible borders Game's link:  
 https://dymgames.itch.io/world-game-with-invisble-borders
