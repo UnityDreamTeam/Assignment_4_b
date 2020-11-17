@@ -1,5 +1,6 @@
 # Assignment 4_b  
-This Project is an example of how to use borders in a regular spacehip war game.  
+![build passing](https://img.shields.io/badge/build-passing-brightgreen) ![platform unity](https://img.shields.io/badge/platform-unity-red)  
+This Project is an example of how to use borders in regular spacehip war game.  
 It is part of Game Development course and it consits of three types of borders:  
 1. Visible borders  
 2. Invisible borders  
