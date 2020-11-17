@@ -1,4 +1,4 @@
-
+# Assignment 4_b  
 This Project is an example of how to use borders in a regular spacehip war game.  
 It is part of Game Development course and it consits of three types of borders:  
 1. Visible borders  
