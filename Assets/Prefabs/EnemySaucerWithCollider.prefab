@@ -206,4 +206,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8821f12a3edcbd94cb4e2e10b3c5aa03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyTag: LowerBorder
+  destroyTag: Laser
