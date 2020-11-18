@@ -24,13 +24,13 @@ This is a demonstration of how we managed and split the tasks in the project (Ka
 This is the Invisible borders Game's link:  
 https://dymgames.itch.io/world-game-with-invisble-borders
 
-Edited scripts:
-KeyboardMover
-DestroyOnTrigger2D
-*Scene changes
-*Prefab's changes
+Edited scripts:<br/>
+KeyboardMover<br/>
+DestroyOnTrigger2D<br/>
+*Scene changes<br/>
+*Prefab's changes<br/>
 
-New scripts:
-OnCollideDestroy
-SpaceMover1
+New scripts:<br/>
+OnCollideDestroy<br/>
+SpaceMover1<br/>
 SpaceMover2
