@@ -23,3 +23,14 @@ This is a demonstration of how we managed and split the tasks in the project (Ka
 ![jira2](https://user-images.githubusercontent.com/73671381/99461591-bf582900-293a-11eb-8ceb-b902b939ef29.jpg)
 This is the Invisible borders Game's link:  
 https://dymgames.itch.io/world-game-with-invisble-borders
+
+Edited scripts:
+KeyboardMover
+DestroyOnTrigger2D
+*Scene changes
+*Prefab's changes
+
+New scripts:
+OnCollideDestroy
+SpaceMover1
+SpaceMover2
